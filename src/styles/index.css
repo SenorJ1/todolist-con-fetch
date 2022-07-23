@@ -1,12 +1,33 @@
+.to-do {
+    width: 400px;
+    margin: auto;
+    background-color: rgb(204, 137, 137);
+    border-radius: 5px;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.to-do {
+    font-family: cursive;
+}
 
-*/
+h1 {
+    color: rgb(14, 8, 8);
+    font-family: cursive;
+}
+
+input {
+    background-color: rgb(231, 200, 200);
+    width: 250px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    background-color: rgb(231, 200, 200);
+}
+
+#trash {
+    float: right;
+    margin-right: 20px;
+}
